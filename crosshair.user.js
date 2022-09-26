@@ -23,7 +23,7 @@ function addGlobalStyle(css) {
     head.appendChild(style);
 }
 
-addGlobalStyle('#crosshair { position:absolute;display:block;left:950px;top:530px; }');
+addGlobalStyle('#crosshair { position:absolute;display:block;left: calc(50% - 10px);;top: calc(50% - 10px); }');
 
 addGlobalStyle('body { color: white; background-color: black; }');
 document.body.appendChild (newHTML);
